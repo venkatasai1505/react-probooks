@@ -1,0 +1,36 @@
+{
+    "data": "\n  <pre>\n    Welcome to the Book Lender API!\n\n    Use an Authorization header to work with your own data:\n\n    fetch(url, { headers: { 'Authorization': 'whatever-you-want' }})\n\n    The following endpoints are available:\n\n    GET /status\n    GET /books\n    GET /books/:id\n    PUT /books/:id { shelf }\n    POST /search { query, maxResults }\n  </pre>\n  ",
+    "status": 200,
+    "statusText": "",
+    "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-berlioz-country": "IN"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "env": {
+            "FormData": null
+        },
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "https://reactnd-books-api.udacity.com"
+    },
+    "request": {}
+}

@@ -1,82 +1,70 @@
-![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
+# Getting Started with Create React App
 
-# ProGrad Lab | REACT - PROBOOKS
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Learning Goals
+## Available Scripts
 
-In this exercise, the goal is to learn routing and forms in react:
+In the project directory, you can run:
 
-- Axios,
-- REST API,
-- GET, POST, PUT & DELETE
+### `npm start`
 
-## Getting started
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. Fork this repo
-2. Clone this repo
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Whenever you create a first significant change, you should make your first commit.
+### `npm test`
 
-3. Follow these [guidelines to add, commit and push changes](https://github.com/FACEPrep-ProGrad/general-guidelines-labs-project-builders.git).
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-In the end of this document, you will find guidelines on how to submit the exercise.
+### `npm run build`
 
-## Instructions
-In this lab we will try to work with API's in react. The main idea of this lab is to fetch details from external API, process it and display it. We have three components 
-- HomeComponent
-- SearchComponent
-- BookComponent
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The main theme behind the lab is to fetch book details and display it for reading. They can like it or dislike it after they have read it. So let's start building it.
-```API DETAILS
-api = "https://reactnd-books-api.udacity.com"
-//token
-if (!token)
-  token = localStorage.token = Math.random().toString(36).substr(-8)
-//headers
-const headers = {
-  'Accept': 'application/json',
-  'Authorization': token
-}
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Kindly see the output:
-![Image description](https://i1.faceprep.in/ProGrad/probook.gif)
-### PROGRESSION 1 | GO FETCH AND COME BACK
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Fetch the data from the above api and display it in homeComponent. The homeComponent consists of three `div`
-- Read
-- Like
-- Dislike
+### `npm run eject`
 
-Based on the user selection you need to move the books to read, like or dislike. You can refer sample output.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### PROGRESSION 2 | LOAD IT TO ME
-Create a `+` Button to call the search component. When the user enters the book to be searched, fetch the book based on the search parameter and display it.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### PROGRESSION 3 | BOOK BOOK BOOK
-The bookcomponent has a button with 4 options
-- Read
-- Like
-- Dislike
-- Delete
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Based on the user selected value, render it in the home page and display it as per the selected value. Please refer the screenshot for reference.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-### Bonus
-Display at the bottom the count of books that are read,liked,disliked and deleted
+## Learn More
 
-## Submission
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-If you didn't add, commit and push the changes you made, this is the last call. :smile:
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-please share your github links with your Mentors. Your Mentor's will check up your work and provide feedback. 
+### Code Splitting
 
-## Summary
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-If you managed to do it, good job! :trophy:
+### Analyzing the Bundle Size
 
-We are proud of you!
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Happy Coding ProGrad ❤️!
+### Making a Progressive Web App
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
